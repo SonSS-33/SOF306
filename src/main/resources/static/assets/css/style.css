@@ -98,12 +98,6 @@ p:last-child {
   text-shadow: none;
 }
 
-::-webkit-selection {
-  background: #f76b6a;
-  /* Safari */
-  color: #fff;
-  text-shadow: none;
-}
 
 img {
   max-width: 100%;
@@ -1359,7 +1353,8 @@ section .container-fluid {
   left: auto;
   font-size: 18px;
 }
-2:hover {
+
+:hover {
   color: #f76b6a;
 }
 .header-action-area .header-action .mini-cart-dropdown .cart-total-money {
@@ -2952,7 +2947,7 @@ section .container-fluid {
 .product-review-tabs-content .product-tab-content .product-review-content .review-pagination .pagination-pag {
   cursor: pointer;
   font-size: 14px;
-  font-weight: #666;
+  font-weight: 600;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
